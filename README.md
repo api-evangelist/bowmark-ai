@@ -1,4 +1,4 @@
-# bowmark-ai
+# Bowmark AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-bowmark-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://bowmark.ai/
+Bowmark AI reorganizes web functionality into a typed capability library that AI agents call by writing code, instead of driving a browser page by page. It provides an MCP server and skill that gives an AI agent a typed library of website functions, enabling agents to retrieve structured data from any website without manual browsing. The service covers search boxes, filters, quote forms, product configurators, availability lookups, checkout and booking flows, and pages behind login, offering a free tier with usage‑based pricing.
+
+**Areas:** AI · Automation · Web · DataExtraction · Platform · Company
+
+## Bowmark AI on APIs.io
+
+Everything profiled for Bowmark AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bowmark-ai/](https://apis.io/providers/bowmark-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Bowmark AI Library API](https://apis.io/apis/bowmark-ai/bowmark-ai-library-api/) — The Library API from Bowmark AI — 1 operation(s) for library.
+- [Bowmark AI Recipes API](https://apis.io/apis/bowmark-ai/bowmark-ai-recipes-api/) — The Recipes API from Bowmark AI — 2 operation(s) for recipes.
+- [Bowmark AI Run API](https://apis.io/apis/bowmark-ai/bowmark-ai-run-api/) — The Run API from Bowmark AI — 1 operation(s) for run.
+- [Bowmark AI Scripts API](https://apis.io/apis/bowmark-ai/bowmark-ai-scripts-api/) — The Scripts API from Bowmark AI — 3 operation(s) for scripts.
+- [Bowmark AI Sites API](https://apis.io/apis/bowmark-ai/bowmark-ai-sites-api/) — The Sites API from Bowmark AI — 3 operation(s) for sites.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Bowmark Ai Agentic Access](https://apis.io/agentic-access/bowmark-ai/bowmark-ai-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [Recipe](https://apis.io/schemas/bowmark-ai/bowmark-ai-recipe/)
+- [RunEnvelope](https://apis.io/schemas/bowmark-ai/bowmark-ai-run-envelope/)
+- [SavedScript](https://apis.io/schemas/bowmark-ai/bowmark-ai-saved-script/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bowmark Ai Context](https://apis.io/jsonld/bowmark-ai/bowmark-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Bowmark AI API Rules](https://apis.io/rules/bowmark-ai/bowmark-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bowmark Ai Authentication](https://apis.io/security/bowmark-ai/bowmark-ai-authentication/)
+- [Bowmark Ai Domain Security](https://apis.io/security/bowmark-ai/bowmark-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bowmark.ai/)
+- [Documentation](https://bowmark.ai/docs)
+- [Getting started](https://bowmark.ai/docs/quickstart)
+- [API reference](https://bowmark.ai/docs/http-api.md)
+- [Pricing](https://bowmark.ai/docs/pricing.md)
+- [Support](https://bowmark.ai/support)
+- [Changelog](https://github.com/bowmark-ai/mcp/releases/latest/download/bowmark.mcpb)
+- [Terms of service](https://bowmark.ai/terms)
+- [Privacy policy](https://bowmark.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 54.7** — strong · rubric 0.25.0 · scored 2026-11-03
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 59.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 44.7 |
+
+**Agent readiness 61.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bowmark-ai/](https://apis.io/providers/bowmark-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bowmark AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bowmark-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
